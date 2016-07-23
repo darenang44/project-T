@@ -53,7 +53,11 @@ var bubbleChart = new d3.svg.BubbleChart({
           attr: {dy: "65px"},
           centralClick: function(item) {
             // alert("Here is more details: " + item.text + "!!");
+<<<<<<< 01b3dbeed0c08ba57e240944b4de2e5e973686f2
             window.location.href = 'http://localhost:3000/dashboard';
+=======
+            window.location.href = 'dashboard.html';
+>>>>>>> redirect from homepage to dashboard
             // console.log()
           }
         }
